@@ -1,0 +1,23 @@
+/* ==========================================================
+   site.css - Public Website Styling
+   ========================================================== */
+
+body {
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+  color: #2b2f33;
+}
+
+.navbar-brand { font-size: 1.25rem; }
+
+.card { border: none; border-radius: 12px; }
+
+.blog-content img { max-width: 100%; height: auto; border-radius: 8px; }
+.blog-content { line-height: 1.75; font-size: 1.05rem; }
+
+footer a:hover { color: #fff !important; }
+
+.badge { font-weight: 500; }
+
+/* Smooth hover for cards */
+.card { transition: box-shadow .2s ease, transform .2s ease; }
+.card:hover { box-shadow: 0 8px 20px rgba(0,0,0,.08); }
