@@ -70,7 +70,7 @@ cms/
 8. If login fails (rare bcrypt cross-environment issue), visit
    `http://localhost/cms/install/reset_admin_password.php` once, then
    **delete the `install` folder**.
-9. Visit `contentmanagementsystem.ct.ws` to see the public website.
+9. Visit `https://localhot/csm` to see the public website.
 
 ---
 
